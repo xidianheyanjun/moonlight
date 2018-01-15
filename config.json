@@ -1,0 +1,16 @@
+{
+  "env": "local",
+  "init": {
+    "port": "2016",
+    "modulePath": "./src",
+    "controllerPathRegular": "\/\\w+\/controller\/\\w+.js$"
+  },
+  "dao": {
+    "id": "dcs",
+    "host": "localhost",
+    "port": "3306",
+    "user": "root",
+    "password": "root",
+    "database": "dcs"
+  }
+}
