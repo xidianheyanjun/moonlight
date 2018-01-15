@@ -2,15 +2,25 @@
   "env": "local",
   "init": {
     "port": "2016",
-    "modulePath": "./src",
-    "controllerPathRegular": "\/\\w+\/controller\/\\w+.js$"
+    "routerPath": "./server/module",
+    "routerPathRegular": "\/\\w+\/router\/\\w+.js$",
+    "modelPath": "./server/module",
+    "modelPathRegular": "\/\\w+\/model\/\\w+.js$"
   },
-  "dao": {
-    "id": "dcs",
-    "host": "localhost",
-    "port": "3306",
-    "user": "root",
-    "password": "root",
-    "database": "dcs"
+  "datasource": {
+    "moonlight": {
+      "host": "localhost",
+      "port": "3306",
+      "user": "root",
+      "password": "123456",
+      "database": "moonlight"
+    },
+    "moonlight": {
+      "host": "localhost",
+      "port": "3306",
+      "user": "root",
+      "password": "123456",
+      "database": "moonlight"
+    }
   }
 }
